@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(52 152 219);
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: normal;
+}
+
+.main-container{
+    margin: 50px;
+}
