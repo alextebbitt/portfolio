@@ -1,0 +1,11 @@
+h1 {
+color: aliceblue;
+font-family: "Work Sans", sans-serif;
+float: inline-start;
+
+}
+
+p {
+    display:flex;
+    justify-content: center;
+}

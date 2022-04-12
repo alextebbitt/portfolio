@@ -1,7 +1,24 @@
+.navigation {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    float: left;
+    padding: 10px 0;
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 h1 {
     display: flex;
     justify-content: center;
-    color: brown;
+    color:aliceblue;
+
 }
 p {
     display: flex;
@@ -15,53 +32,18 @@ form {
     width: fit-content;
     justify-content: center;
     padding: 25px;
-    border-style:groove;
+    border-style:solid;
 }
 
 
 .container  {
     display:flex;
     justify-content: center;
-    margin-top: 100px;
-}
-.navigation {
-    width: 100%;
-    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 100px;
 }
 
-.logo {
-    float: left;
-    padding: 10px 0;
-    max-width: 50px;
-    max-height: 50px;
-}
-nav {
-    float:right;
-}
- 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
 
-}
 
-nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 25px;
-    padding-right: 20px;
-    position: relative;
-}
 
-nav a {
-    color:rgb(207, 177, 25);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 30px;
-    padding: 10px;
-}
-nav a:hover {
-    color: rgb(255, 255, 255);
-    font-size:x-large;
-}
+
